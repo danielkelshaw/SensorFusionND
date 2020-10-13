@@ -4,7 +4,7 @@
 
 - [x] [**P1:** Lidar Obstacle Detection](https://github.com/danielkelshaw/SensorFusionND/tree/main/p1-lidar-obstacle-detection)
 
-    This project involved processing point cloud data using the `C++` library, `PCL`. The data was first segemented using a linera Ransac model
+    This project involved processing point cloud data using the `C++` library, `PCL`. The data was first segemented using a linear Ransac model
     to determine which parts were part of the road, and which were not. KD-Trees were then used to conduct nearest neigbour search for clustering.
     A bounding box could then be drawn around the points - showing the location of vehicles.
     <br>
@@ -18,7 +18,7 @@
 
 - [x] [**P3:** Object Tracking](https://github.com/danielkelshaw/SensorFusionND/tree/main/p3-object-tracking)
 
-    The object tracking project utilised lidar data ini conjunction with the 2D feature tracking in order to match the bounding boxes for vehicles
+    The object tracking project utilised lidar data in conjunction with the 2D feature tracking in order to match the bounding boxes for vehicles
     and provide a much more representative estimate of the time-to-collision.
     <br>
 
